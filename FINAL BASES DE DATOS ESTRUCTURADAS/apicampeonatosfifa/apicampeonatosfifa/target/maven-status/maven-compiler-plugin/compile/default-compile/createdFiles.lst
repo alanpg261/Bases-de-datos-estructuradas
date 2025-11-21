@@ -1,0 +1,11 @@
+com\campeonatosfifa\controladores\CampeonatoControlador.class
+com\campeonatosfifa\repositorios\GrupoRepositorio.class
+com\campeonatosfifa\dominio\Campeonato.class
+com\campeonatosfifa\dominio\Grupo.class
+com\campeonatosfifa\repositorios\CampeonatoRepositorio.class
+com\campeonatosfifa\controladores\GrupoControlador.class
+com\campeonatosfifa\dominio\Pais.class
+com\campeonatosfifa\dominio\dtos\TablaPosicionesDto.class
+com\campeonatosfifa\dominio\GrupoPais.class
+com\campeonatosfifa\dominio\GrupoPaisId.class
+com\campeonatosfifa\ApicampeonatosfifaApplication.class

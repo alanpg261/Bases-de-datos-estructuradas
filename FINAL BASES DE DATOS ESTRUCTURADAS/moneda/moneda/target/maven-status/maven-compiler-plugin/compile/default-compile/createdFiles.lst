@@ -1,0 +1,13 @@
+com\conversionmoneda\moneda\repository\CambioMonedaRepository.class
+com\conversionmoneda\moneda\MonedaApplication.class
+com\conversionmoneda\moneda\controller\PaisController.class
+com\conversionmoneda\moneda\service\CambioMonedaService.class
+com\conversionmoneda\moneda\entity\Moneda.class
+com\conversionmoneda\moneda\repository\PaisRepository.class
+com\conversionmoneda\moneda\entity\CambioMoneda.class
+com\conversionmoneda\moneda\entity\Pais.class
+com\conversionmoneda\moneda\service\PaisService.class
+com\conversionmoneda\moneda\service\MonedaService.class
+com\conversionmoneda\moneda\controller\CambioMonedaController.class
+com\conversionmoneda\moneda\controller\MonedaController.class
+com\conversionmoneda\moneda\repository\MonedaRepository.class

@@ -1,0 +1,46 @@
+CRUD MONEDAS:
+GET    http://localhost:8080/api/monedas
+GET    http://localhost:8080/api/monedas/{id}
+POST   http://localhost:8080/api/monedas/agregar
+PUT    http://localhost:8080/api/monedas/{id}
+DELETE http://localhost:8080/api/monedas/{id}
+
+CRUD CAMBIOS:
+GET    http://localhost:8080/api/cambios
+GET    http://localhost:8080/api/cambios/{id}
+POST   http://localhost:8080/api/cambios
+PUT    http://localhost:8080/api/cambios/{id}
+DELETE http://localhost:8080/api/cambios/{id}
+
+CRUD PAISES:
+GET    http://localhost:8080/api/paises
+GET    http://localhost:8080/api/paises/{id}
+POST   http://localhost:8080/api/paises
+PUT    http://localhost:8080/api/paises/{id}
+DELETE http://localhost:8080/api/paises/{id}
+
+ENDPOINT ESPECIAL:
+GET http://localhost:8080/api/monedas/listarporperiodo?desde=2024-01-01&hasta=2024-12-31&sigla=COP
+
+EJEMPLO POST MONEDA:
+{
+  "moneda": "Barra Costeña",
+  "sigla": "BAR",
+  "simbolo": "BS",
+  "emisor": "Banco Costeño"
+}
+
+EJEMPLO POST CAMBIO:
+{
+  "moneda": {"id": 1},
+  "fecha": "2024-01-15T10:00:00",
+  "cambio": 3900.50
+}
+
+EJEMPLO POST PAIS:
+{
+  "pais": "Colombia",
+  "codigoAlfa2": "CO",
+  "codigoAlfa3": "COL",
+  "moneda": {"id": 1}
+}
